@@ -15,7 +15,7 @@ int main() {
 
     sock = socket(AF_INET, SOCK_DGRAM, 0);
     if(sock == -1){
-        printf("Error(WSAStartup) ErrorNumber(%d)\r\n", WSAGetLastError());
+        printf("Error(socket) ErrorNumber(%d)\r\n", WSAGetLastError());
         WSACleanup();
         return -1;
     }
