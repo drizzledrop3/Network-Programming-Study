@@ -15,7 +15,7 @@ int main() {
 
     sock = socket(AF_INET, SOCK_DGRAM, 0);
     if(sock == -1){
-        printf("Error(WSAStartup) ErrorNumber(%d)\r\n", WSAGetLastError());
+        printf("Error(socket) ErrorNumber(%d)\r\n", WSAGetLastError());
         WSACleanup();
         return -1;
     }
@@ -25,7 +25,7 @@ int main() {
     SerAddr.sin_port = htons(6969);
 
     if(bind(sock, (SOCKADDR*)&SerAddr, sizeof(SOCKADDR)) == SOCKET_ERROR){
-        printf("Error(WSAStartup) ErrorNumber(%d)\r\n", WSAGetLastError());
+        printf("Error(bind) ErrorNumber(%d)\r\n", WSAGetLastError());
         closesocket(sock);
         WSACleanup();
         return -1;
