@@ -39,7 +39,7 @@ UDP文件夹中包含基于Winsock库实现的 UDPServer 和 UDPClient
 
 ## Multithread
 
-Multithread文件夹中包含参考B站up主北小菜完成的TCP服务端与客户端，其中服务端采用多线程完成，也包含了我学习过程中的注释。代码部分已征得up主同意。
+Multithread文件夹中包含参考B站up主[北小菜](https://www.bilibili.com/video/BV1Fv4y167kj/)完成的TCP服务端与客户端，其中服务端采用多线程完成，也包含了我学习过程中的注释。代码部分已征得up主同意。
 
 ```c++
 /*
@@ -56,7 +56,7 @@ Multithread文件夹中包含参考B站up主北小菜完成的TCP服务端与客
 
 ## select
 
-select文件夹包含参考B站up主北小菜完成的TCP服务端与客户端，其中服务端采用select模式完成，也包含了我学习过程中的注释。代码部分已征得up主同意。
+select文件夹包含参考B站up主[北小菜](https://www.bilibili.com/video/BV1Fv4y167kj/)完成的TCP服务端与客户端，其中服务端采用select模式完成，也包含了我学习过程中的注释。代码部分已征得up主同意。
 
 ```c++
 /*
@@ -72,9 +72,9 @@ select文件夹包含参考B站up主北小菜完成的TCP服务端与客户端�
 
 ## poll
 
-poll文件夹包含参考B站up主北小菜完成的TCP服务端与客户端，其中服务端采用poll模式完成，也包含了我学习过程中的注释。代码部分已征得up主同意。
+poll文件夹包含参考B站up主[北小菜](https://www.bilibili.com/video/BV1iG4y1C7iS/)完成的TCP服务端与客户端，其中服务端采用poll模式完成，也包含了我学习过程中的注释。代码部分已征得up主同意。
 
-注：poll是基于linux内核级的委托实现，仅支持在linux等系统上运行，无法再windows上运行
+注：poll是基于linux内核级的委托实现，仅支持在linux等系统上运行，无法在windows上运行
 
 ```c++
 /*
@@ -91,9 +91,9 @@ poll文件夹包含参考B站up主北小菜完成的TCP服务端与客户端，�
 
 ## epoll
 
-epoll文件夹包含参考B站up主北小菜完成的TCP服务端与客户端，其中服务端采用epoll模式完成，也包含了我学习过程中的注释。代码部分已征得up主同意。
+epoll文件夹包含参考B站up主[北小菜](https://www.bilibili.com/video/BV1iG4y1C7iS/)完成的TCP服务端与客户端，其中服务端采用epoll模式完成，也包含了我学习过程中的注释。代码部分已征得up主同意。
 
-注：epoll是基于linux内核级的委托实现，仅支持在linux等系统上运行，无法再windows上运行
+注：epoll是基于linux内核级的委托实现，仅支持在linux等系统上运行，无法在windows上运行
 
 ```c++
 /*
